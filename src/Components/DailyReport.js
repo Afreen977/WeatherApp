@@ -19,7 +19,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Styles from '../Styles/DailyReport.module.css'
 import {Images} from '../Utility/Images'
 import { getNextDays } from '../Utility/getNextDays';
-export const DailyReport = React.forwardRef((props, ref) => {
+export const DailyReport = ((props) => {
 
     let date = new Date().getUTCDay()
     let image
